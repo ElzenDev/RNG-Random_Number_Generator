@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RNG- Random Number Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neucha&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <div id="gerador">
+        <div class="title">
+            <h1>Random Number Generator</h1>
+            <p>Um gerador aleatorio de numeros</p>
+        </div>
+    
+        <div>
+            <div class="valores">
+
+                <p id="valorMin">
+                    Valor Minimo
+                    <input type="number" name="min_range" id="min_range">
+                </p>
+
+                <p id="valorMax">
+                    Valor Maximo
+                    <input type="number" name="max_range" id="max_range">
+                </p>
+
+                
+            </div>
+            <p>
+                <input type="button" value="Sortear" onclick="contar()"
+                id="button">
+            </p>
+        </div>
+    
+        <div id="res">Preparando</div>
+    
+        <footer>Feito por <a href="https://github.com/ElzenDev" target="_blank" rel="external"> @ElzenDev</a></footer>
+    </div>
+    
+</body>
+</html>

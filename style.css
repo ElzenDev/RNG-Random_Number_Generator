@@ -1,0 +1,101 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Neucha', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    color:rgb(50, 0, 97)
+}
+#gerador{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(233, 233, 233);
+    border-radius: 10px;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+input{
+    width: 80%;
+    font-family: 'Neucha', cursive;
+    font-family: 'Poppins', sans-serif;
+    font: bold;
+    font-size: 12pt;
+    margin: 30px;
+    border: 10px;
+    border: 30px;
+    border-color: rgb(50, 0, 97);
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color:rgb(50, 0, 97);
+    box-shadow: 0px 10px 40px -12px #aeb3b1 ;
+}
+#button{
+    bottom: 0px;
+    width: 40%;
+    padding: 16px 0px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color:rgb(50, 0, 97);
+    background: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #aeb3b1 ;
+}
+h1{
+    font-size: 38pt;
+}
+.title{
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+.valores{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align:center;
+}
+
+#valorMax{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:center;
+}
+
+#valorMin{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:center;
+}
+#res{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    width: 40%;
+    padding: 25px 0px;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    color:rgb(50, 0, 97);
+    background: whitesmoke;
+    box-shadow: 0px 10px 40px -12px #aeb3b1 ;
+}
